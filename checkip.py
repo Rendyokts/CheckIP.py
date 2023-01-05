@@ -17,7 +17,7 @@ geolocation = geolocation.split("(")[1].strip(")")
 geolocation = json.loads(geolocation)
 
 for k,v in geolocation.items():
-  pprint.pprint(str(k) + ' : ' str(v))
+  pprint.pprint(str(k) + ' : ' + str(v))
   
 //to check if the source code is working//
 
